@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JEE MAIN Registration Form</title>
+    
+
+    <style>
+        h1{
+    background-color : deepskyblue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    
+}
+.background{
+    background-color:antiquewhite ;
+   
+    
+    
+   }
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding: 13px;
+  
+}
+
+
+
+.box{
+   text-align: center;
+   
+}
+body{
+    border: solid black;
+
+}
+h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.btn{
+    font-size: 20px;
+    
+}
+.btn:hover{
+    font-size: 25px;
+    color: deepskyblue;
+}
+
+
+
+
+
+    </style>
+    
+</head>
+
+<body>
+    <div class="background">
+    <h1><b> JEE MAIN REGISTRATION FORM</b></h1>
+    
+
+    
+    <h4>NAME : 
+        <input class = box type="text" placeholder="Enter Name" ></h4>
+        <h4>DATE OF BIRTH : 
+            <input class = box type="date" placeholder="28 - 11 - 2004" ></h4>
+        <h4 >GENDER : 
+            <form action="/action.php">
+                <label for="100">
+                        <input type="radio" value="class male" name="Gender" id="100">MALE
+                    </label>
+                    <label for="101">
+                        <input type="radio" value="class female" name="Gender" id="101">FEMALE
+                    </label>
+                    <label for="102">
+                        <input type="radio" value="class other" name="Gender" id="102">OTHERS
+                    </label>
+                </form></h4>
+                <h4 >CATEGORY : 
+                    <form action="/action.php">
+                        <label for="100">
+                                <input type="radio" value="class male" name="Category" id="100">General
+                            </label>
+                            <label for="101">
+                                <input type="radio" value="class female" name="Category" id="101">OBC
+                            </label>
+                            <label for="102">
+                                <input type="radio" value="class other" name="Category" id="102">SC
+                            </label>
+                            <label for="103">
+                                <input type="radio" value="class other" name="Category" id="103">ST
+                            </label>
+                        </form></h4>
+    <h4>FATHER'S NAME : 
+        <input  class = box type="text" placeholder="Enter Name"></h4>
+     <h4>MOTHER'S NAME : 
+         <input class = box type="text" placeholder="Enter Name"></h4>
+    
+            
+     <h4>ADDRESS : 
+        <input class = box type="text" placeholder="Enter Address" size="100px"></h4>
+    <h4>MOBILE NUMBER : 
+        <input  class = box type="text" placeholder="Enter Mobile No."></h4>    
+    <h4>EMAIL-ID : 
+        <input  class = box type="text" placeholder="Enter Email-id"></h4>
+       <h3> <button class="btn" > SUBMIT</button></h3>
+     
+</div>
+</body>
+</html>
